@@ -51,7 +51,7 @@ module.exports = new Confidence.Store({
                                 user     : process.env.DB_USER || 'root',
                                 password : process.env.DB_PASSWORD || 'hapi',
                                 database : process.env.DB_DATABASE || 'user',
-                                port     : process.env.DB_PORT || 3307
+                                port     : process.env.DB_PORT || 3306
                             }
                         }
                     },
