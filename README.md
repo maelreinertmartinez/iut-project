@@ -12,10 +12,8 @@
 
 ## Prerequisites
 
-- Node.js (v14 or later)
+- Node.js
 - Docker
-- MySQL 8.0
-- RabbitMQ 4.0
 
 ## Environment Variables
 
