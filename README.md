@@ -85,6 +85,14 @@ RABBITMQ_URL=amqp://localhost:5672
 
 Once the server is running, you can access the Swagger documentation at `http://localhost:3000/documentation`.
 
+### Authentication in Swagger
+
+When using the "Authorize" button in the Swagger documentation, make sure to include the token in the format:
+```
+Bearer <your_token>
+```
+Note: Don't forget to include the word "Bearer" before your token, otherwise authentication will fail.
+
 ## Testing Email Notifications
 
 This project uses Ethereal for testing email notifications. When a notification is sent, check the console log for a preview URL to view the email in Ethereal's web interface.
